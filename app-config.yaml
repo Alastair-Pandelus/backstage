@@ -1,9 +1,9 @@
 app:
-  title: Scaffolded Backstage App
+  title: Anglo POC Backstage App
   baseUrl: http://localhost:3000
 
 organization:
-  name: My Company
+  name: Grafworx - Anglo
 
 backend:
   baseUrl: http://localhost:7000
