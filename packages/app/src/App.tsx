@@ -34,6 +34,7 @@ import {
 import { createApp, FlatRoutes } from '@backstage/core-app-api';
 
 import { microsoftAuthApiRef } from '@backstage/core-plugin-api';
+import { PocPluginPage } from '@internal/plugin-poc-plugin';
 
 const microsoftProvider: SignInProviderConfig = {
   id: 'microsoft-auth-provider',
@@ -94,6 +95,7 @@ const routes = (
       {searchPage}
     </Route>
     <Route path="/settings" element={<UserSettingsPage />} />
+    <Route path="/poc-plugin" element={<PocPluginPage />}/>
   </FlatRoutes>
 );
 
