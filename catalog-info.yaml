@@ -9,5 +9,5 @@ metadata:
   #   backstage.io/techdocs-ref: dir:.
 spec:
   type: website
-  owner: bricks@grafworx.com
+  owner: group:team-a
   lifecycle: experimental
