@@ -37,7 +37,7 @@ export const ExampleComponent = () => {
               <Typography variant="body1">
                 This page is an example backstage plugin, next step is to wire
                 it up with meaningful ANGLO data... You are currently logged in
-                as {profile.displayName}, {profile.email}
+                as {userId}, {profile.email}
               </Typography>
             </InfoCard>
           </Grid>
